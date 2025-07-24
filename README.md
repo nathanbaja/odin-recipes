@@ -15,7 +15,7 @@ In the future I will return to this project and implement new things as I learn,
 
 ## Find a bug? 
 
-If you run into any issues using this website or would like to submit and improvement, please submit one using the issues tab
+If you run into any issues using this website or would like to submit an improvement, please submit one using the issues tab
 
 ## Know issues (Work in progress)
 
