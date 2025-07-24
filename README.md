@@ -11,6 +11,7 @@ In the future I will return to this project and implement new things as I learn,
 * CSS to make the website look better
 * JavaScript to make the website more functional
 * Database for the recipes using SQL
+* Update images folder with my own images
 * Node.js to handle the backend
 
 ## Find a bug? 
