@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.title{
+    text-align: center;
+    padding: 20px;
+    background-color: coral;
+}
+
+.nav {
+    padding: 20px;
+    background-color: lightgrey;
+}
+
+.recipes {
+    text-align: center;
+    margin: 0 auto;
+    padding: 40px; 
+    background-color: beige; 
+}
+
+.bolognese,
+.al-limone,
+.risotto {
+    padding: 30px;
+    display: inline;
+    background-color:bisque;
+    margin: 20px;
+}
+button {
+    padding: 10px;
+    font-size: 16px;
+    margin: 0;
+}
