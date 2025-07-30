@@ -5,34 +5,95 @@
     font-family: 'Trebuchet MS', Arial, sans-serif;
 }
 
-.title{
-    text-align: center;
-    padding: 20px;
-    background-color: coral;
+.title,
+.homepage-link,
+.about-link {
+    color: white;
 }
 
-.nav {
+.title{
+    display: flex;
+    align-items: center;
     padding: 20px;
-    background-color: lightgrey;
+    justify-content: space-between;
+    background-color: sienna;
+}
+
+.title .homepage-link {
+    margin-left: auto;
+}
+
+.title .about-link {
+    margin: 20px;
 }
 
 .recipes {
-    text-align: center;
-    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+/*     border: 1px solid black; DEBUGGING */
     padding: 40px; 
-    background-color: beige; 
+    text-align: center;
+    gap: 20px;
 }
 
-.bolognese,
-.al-limone,
-.risotto {
-    padding: 30px;
-    display: inline;
-    background-color:bisque;
-    margin: 20px;
+.recipe {
+  /*   border: 1px solid black; DEBUGGING */
+    flex-basis: 250px;
+    background: white;
+    color: sienna;
 }
-button {
-    padding: 10px;
-    font-size: 16px;
-    margin: 0;
+
+a{
+    color: sienna;
+}
+
+.recipe img{
+    width: 100%; 
+    object-fit: cover;
+}
+
+.page-layout{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white; 
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.main-content{
+    gap: 10px;
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+
+.page-layout,
+.main-content,
+.sidebar-container{
+    padding: 20px;
+}
+
+.content{
+    justify-content: center;
+}
+
+.ingredients ul,
+.directions ol{
+    padding: 10px 30px;
+}
+
+.sidebar-container{
+    flex: 1;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar-container a{
+    font-size: 14px;
+    gap: 10px;
 }
